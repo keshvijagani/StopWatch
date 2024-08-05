@@ -1,0 +1,51 @@
+body, html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, rgb(239, 203, 219) 0%, rgb(213, 230, 250) 100%);
+}
+
+.stopwatch {
+    text-align: center;
+}
+
+#display {
+    width: 350px;
+    height: 150px;
+    padding: 35px;
+    text-align: center;
+    font-size: 48px;
+    margin-top: 10%;
+    margin-left: 2%;
+    font-size: 48px;
+    background-color: #B9B4C7;
+    border: 3px solid white;
+}
+
+.buttons button {
+    width: 120px;
+    height: 38px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin-inline: 11px;
+    margin-top: 22px;
+    outline: none;
+    background-color: steelblue;
+   /* padding: 10px 20px;
+    margin: 5px;*/
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+    color: white;
+}
+
+#laps li {
+    font-size: 18px;
+    margin: 5px 0;
+}
